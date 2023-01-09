@@ -28,6 +28,7 @@ class FruitMachineTest {
         // Then
         assertFalse(gameResult.win());
         System.out.println(gameResult.messageResult());
+        System.out.println("result = "+gameResult.score());
 
     }
 
@@ -44,6 +45,7 @@ class FruitMachineTest {
         // Then
         assertTrue(gameResult.win());
         System.out.println(gameResult.messageResult());
+        System.out.println("result = "+gameResult.score());
 
     }
 
@@ -60,6 +62,7 @@ class FruitMachineTest {
         // Then
         assertTrue(gameResult.win());
         System.out.println(gameResult.messageResult());
+        System.out.println("result = "+gameResult.score());
 
     }
 
@@ -76,6 +79,7 @@ class FruitMachineTest {
         // Then
         assertTrue(gameResult.win());
         System.out.println(gameResult.messageResult());
+        System.out.println("result = "+gameResult.score());
 
     }
 
@@ -92,6 +96,7 @@ class FruitMachineTest {
         // Then
         assertTrue(gameResult.win());
         System.out.println(gameResult.messageResult());
+        System.out.println("result = "+gameResult.score());
 
     }
 
@@ -116,6 +121,7 @@ class FruitMachineTest {
                distribution.put(launch.score(), 1);
            }
            System.out.println(result);
+
 
         }
         System.out.println(" --- End of game ");
