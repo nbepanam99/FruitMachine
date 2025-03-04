@@ -23,7 +23,7 @@ Rules
 
 8. No matching items returns 0.
 
-9. End:
+9. End
 
 
 Returns
