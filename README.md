@@ -23,7 +23,7 @@ Rules
 
 8. No matching items returns 0.
 
-9. End... // create conflit -  Update File for test demo conflict
+9. End... // create conflit in Test Branch -  Update File for test demo conflict
 
 
 
